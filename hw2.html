@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+      <body style="background-color:lightblue;">
+      <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+          
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          </style>
+
+		<title> McDonald's Data Analytics Team Report </title>
+
+	</head>
+
+	<body>
+
+    <h1><center>McDonald's Data Analytics Team Report- Customer Trends 2016-2019</center></h1>
+    
+		
+
+    <p> The Data Analytics team extracted insights from the Monthly and Daily Sales Data for the following three menu items: 
+        Chicken Filet, Fish Filet and Hamburger. We presented our report in form of questions we wanted to answer, visualizations
+        that were created to help us answer the questions and our overall analysis and findings.
+    </p>
+
+
+    <p style="font-size:30px;">Question #1: How much data do we have for each year?</p>
+    <center><img src="data.png" alt="Trulli" width="500" height="333"></center>
+    <p> This graph shows that the years 2016, 2017 and 2018 have equal amounts of data while the year 2019 does not.
+      2019 contains data from the months Jan-August and we will be answering the question of how Burger King's Impossible
+      Burger will affect sales from Oct-Dec 2019 in the upcoming questions.
+    </p> 
+
+    <p style="font-size:30px;">Question #2: How are sales changing throughout the months(for all years combined) for each menu item?</p>
+
+    
+        <div class="column">
+          <img src="CF-1.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="FF-1.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="HM-1.png" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
+        <p> All three bar graphs show a simialr trend. For all the  the years; 2016-2019 , all three bar charts for 
+          Chicken Filet, Fish Filet and Hamburgers sales show that the overall sales start to drastically plument in 
+          the months of October - December. It seems like McDonald's doesn't do as well as in the Fall and beginning of Winter as
+          it does in other months/seasons.
+          </p>
+          
+    
+    <p style="font-size:30px;">Question #3: How are sales changing throughout the months(for each year separately) for each menu item?</p>
+
+    <p> The following graphs show the general sales trend for Chicken Filet, Fish Filet, Hamburger throughout the months of Jan-Dec for 2016-2018. These
+       trends will help us predict the impact of Burger King's impossible burger by extrapolation.</p>
+
+  
+       <center><h2>Monthly Chicken Filet Sales For Each Year</h2></center>
+       <center><img src="CF-3.png" alt="Trulli" width="800" height="300"> <img src="box_CF.png" alt="Trulli" width="600" height="300"></center>
+       <center><h2>Monthly Fish Filet Sales For Each Year</h2></center>
+        <center><img src="FF-3.png" alt="Trulli" width="800" height="300"><img src="box_FF.png" alt="Trulli" width="600" height="300"> </center>
+      <center><h2>Monthly Hamburger Sales For Each Year</h2></center>
+        <center><img src="HM-3.png" alt="Trulli" width="800" height="300"><img src="box_HM.png" alt="Trulli" width="600" height="300"></center>
+       
+
+    <p> 
+      
+      
+      Insights:
+        1) There is a decrease in the 2019 sales for Chicken Filet, Fish Filet and Hamburger compared to year 2016,2017 and 2018.
+        2) For 2016-2019, there are very similar sales trends throughout the months for Chicken Filet, Fish Filet and Hamburger.
+        The sales peak at similar times/months.  
+        3) The boxplots give more insight into the distribution of the data. The smallest and highest "box" on the boxplot is the month with 
+        the least variation in sales(mostly always high or always low) and the one with highest average sales. For Chicken, Fish Filet, and Hamburgers, this would be NOVEMBER
+        with average sales close to 3100000, 1850000, 7450000 respectively.
+    </p>
+
+    <p style="font-size:30px;">Question #4: How are sales changing every day for each menu item?</p>
+
+    <div class="row">
+        <div class="column">
+          <img src="CF_4.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="FF_4.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="HM_4.png" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
+    <p> 
+      For all three menu items, the general trend for sales is constantly fluctuating throughout the month. It seems like there is one day a week where sales peak and then it pluments for the next few days.
+      However, there is one trend that stands out and that is how Hamburger daily sales fluctuate the least out of all the items. The difference between the largest and smallest data value of sum sales is a lot
+      smaller than that of chicken fillet and fish fillet. This is important because McDonalds's Hamburger Burger King's "Impossible Burger's" main competitor. This trend also means that the Hamburger is the most 
+      consistent item that is bought at Mcdonald's out of all the items.
+    </p>
+
+
+    <p style="font-size:30px;">Question #5: How are the sales of each McDonald's item affected by the introduction of Burger King's Impossible Burger?</p>
+    <div class="row">
+        <div class="column">
+          <img src="5.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="6.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="7.png" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+
+      <p> 
+          All three menu items were drastically affected by the introduction of the Impossible Burger in Octobr 2018. The items were affected from most to least in this order: Fish Fillet, Hamburger and then Chicken Fillet.
+          This makes sense since the "Impossible Burger" is a vegetarian option that most vegetarians will buy as a replacement of the Hamburger.
+        </p>
+    
+  </body>
+
+</html>
+
+        
+    
+
+    
+        
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+
